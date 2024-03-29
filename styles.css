@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Figtree;
+    src: url(/assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 50vh;
+    height: max-content;
+    margin: 10vh;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 5px 5px hsl(0, 0%, 7%);
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding-bottom: 15px;
+}
+
+.illustration{
+    display: block;
+    width: 90%;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+
+.text{
+    padding-left: 20px;
+    font-family: Figtree;
+}
+
+.tag{
+    display: inline-block;
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    padding: 8px 10px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+
+}
+
+.date{
+    font-weight: 500;
+    display: block;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.brief{
+    color: hsl(0, 0%, 50%);
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.author{
+    display: flex;
+    padding-top: 10px;
+}
+.authorname{
+    font-size: 18px;
+    font-weight: 700; 
+    vertical-align: middle;
+    margin: 10px 16px;
+}
+
+.authorimage{
+    border-radius: 100%;
+    width: 40px;
+    height:fit-content;
+    vertical-align: middle;
+}
+
+.card:hover{
+    box-shadow: 10px 10px hsl(0, 0%, 7%);
+    transition-duration: 0.5s;
+}
+
+.heading:hover{
+    color: hsl(47, 88%, 63%);
+    transition-duration: 0.2s;
+}
